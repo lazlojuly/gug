@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -d && cp src/app/index.html dist/index.html && webpack-dev-server --hot --inline --colors --progress --content-base src/",
-    "build-prod": "webpack -p && cp src/app/index.html dist/index.html"
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --hot --inline --colors --progress --content-base src/",
+    "build-prod": "webpack -p && cp src/index.html dist/index.html"
   },
   "author": "lazlojuly",
   "license": "ISC",

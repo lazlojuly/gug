@@ -4,11 +4,11 @@ var DIST_PATH = path.resolve(__dirname, 'dist');
 var SOURCE_PATH = path.resolve(__dirname, 'src');
 
 module.exports = {
-	entry: SOURCE_PATH + '/app/app.js',
+	entry: SOURCE_PATH + '/app.js',
 	output: {
 		path: DIST_PATH,
 		filename: 'app.dist.js',
-		publicPath: '/app/'
+		publicPath: '/'
 	},
 	module: {
 		loaders: [
