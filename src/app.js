@@ -3,9 +3,11 @@ import ReactDom from 'react-dom'
 
 var SimpleComponent = React.createClass({
   render: function() {
-    return (
-      <div>Hello {this.props.message}</div>
-    )
+    setTimeout(function () {
+      return (
+        <div>Hello {this.props.message}</div>
+      )
+    }, 1200)
   }
 })
 
