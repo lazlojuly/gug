@@ -1,5 +1,5 @@
 {
-  "name": "GrowIT",
+  "name": "Growing Underground",
   "short_name": "GrowIT",
   "icons": [
     {
@@ -19,7 +19,7 @@
     }
   ],
   "start_url": "https://lazlojuly.github.io/gug/dist/index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "background_color": "#a58855",
-  "theme_color": "aliceblue"
+  "theme_color": "#a58855"
 }
